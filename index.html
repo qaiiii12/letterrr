@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Farah Fazuien.</strong>
+                        <p>
+                         hi sayangg, i want to tell you how much i love you, how much you mean to me and how much i appreciate
+                         you. you are my everything sayangg, you are the reason for all that is good in my world.. i know 
+                         sometimes i may act like im not that serious, but let me tell you this, i truly love you and i will always
+                         be there for you in good and bad times. Your laugh makes me feel so happy and i feel like our conversations
+                         are the most natural and easiest ones ive ever had. you are the one that can makes everything make sense.
+                         i cant believe how lucky i was for meeting someone as wonderful and as perfect as you, i dont thinkk there is 
+                         one thing about you that i would ever change because everything about you already so amazing. I love you so 
+                         muchh sayangg. i love every single aspect of you that makes you who you are and i will never change that fact.
+                         Trust mee sayangg, id never leave you. i will try my best to protect this relationship.. my feelings for you
+                         will never change and thats guaranteed. so dont overthinking okay? eventho one day we willfind a right man, but 
+                         we still can be friends right? dont worry okay? as long as our time is no over yet.. we will spend time together 
+                         until we both find the right man.. for now i dont think i will find someone who can treat me like you treat me.
+                         no one can make me happy instead of youu sayangg, im sorry for making you feel overthinking.. i really love youu 
+                         sayangg, dont worry cintaa, hehe I LOVE YOUU CINTAA
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
